@@ -28,14 +28,12 @@
 		3105A224 /* vnode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105A084; };
 		3105A225 /* sandbox_escape.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105A085; };
 		3106C0D3 /* MGImageReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3106C0D2; };
-		3106C0D5 /* MGCacheLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106C0D4; };
 		3105A226 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A098; };
 		3105A227 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A099; };
 		3105A235 /* AppIconHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105A106; };
 		3105A208 /* KernelExploit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A202; };
 		3105J200 /* AntiDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105J201; };
 		3105J204 /* DisplayIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105J203; };
-		3105J206 /* DisplayIdentityAttribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105J205; };
 		3105A236 /* ContainerIdentityResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A108; };
 		3105A237 /* ContainerBrowserLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A109; };
 		3105A238 /* FileReplacementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105A110; };
@@ -49,12 +47,6 @@
 		3105D244 /* PermissionPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105D144; };
 		3105D245 /* DeviceCPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105D145; };
 		3105D246 /* JailbreakDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105D146; };
-		3105D247 /* RegionKeyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105D147; };
-		3105D248 /* RegionTargets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105D148; };
-		3105D249 /* WiFiSharePolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105D149; };
-		3105D24A /* WiFiShareServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105D14A; };
-		3105D24B /* WiFiShareConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105D14B; };
-		3105D24C /* WiFiShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105D14C; };
 		3105D24D /* UnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105D14D; };
 		3105D24E /* UnlockBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105D14E; };
 		3106Q101 /* LaunchServicesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106Q100; };
@@ -70,107 +62,32 @@
 		3105C200 /* PatchDraftService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105C100; };
 		3105C201 /* PatchDraftCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105C101; };
 		3105C202 /* FolderPatchSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105C102; };
-		3105E200 /* LimitedCleanerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E100; };
-		3105E201 /* CleanerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E101; };
-		3105E202 /* CleanerCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E102; };
-		3105E203 /* CleanerSafetyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E103; };
-		3105E204 /* CleanerHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E104; };
-		3105E205 /* CleanerMeasureCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E105; };
-		3105E206 /* BackupTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E106; };
 		3105E208 /* RiskConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E108; };
 		3105E209 /* ContainerSizeMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E109; };
 		3105E20A /* ScanDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E10A; };
-		3105E20B /* GestaltKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E10B; };
-		3105E20C /* GestaltPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E10C; };
-		3105E20D /* GestaltRegionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E10D; };
-		3105E20E /* GestaltFieldEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E10E; };
-		3105E20F /* GestaltPresetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E10F; };
-		3105E210 /* GestaltRegionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E110; };
-		3105E211 /* SupervisedModeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E111; };
-		3105E212 /* AppSaveBackupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E112; };
-		3105E213 /* SupervisedModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E113; };
-		3105E214 /* AppSaveBackupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E114; };
-		3105E215 /* FullBackupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E115; };
-		3105E216 /* ActivityHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E116; };
-		3105E217 /* AltStoreSourceAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E117; };
 		3105E218 /* BackendNoticeBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E118; };
 		3105E219 /* FileReplaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E119; };
-		3105E21A /* FileReplaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E11A; };
-		3105E21B /* GestaltCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E11B; };
-		3105E21C /* AppVersionComparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E11C; };
-		3106G203 /* GestaltPlistMerge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106G103; };
-		3106G202 /* GestaltValueParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106G102; };
 		3106G201 /* IdentityComparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106G101; };
-		3106G204 /* BackupMetadataPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106G104; };
-		3106G206 /* GestaltExplicitEdits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106G106; };
-		3106N201 /* NotificationSoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106N101; };
-		3106G208 /* NotificationSoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106G108; };
-		3106G207 /* NotificationSoundPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106G107; };
-		3106G205 /* GestaltEditPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106G105; };
 		3105E207 /* AppCardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105E107; };
 		3105F200 /* wallpaper_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 3105F100; };
-		3105F201 /* WallpaperLabModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105F102; };
 		3105F202 /* SecureZIPArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105F103; };
-		3105F203 /* WallpaperInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105F104; };
-		3105F204 /* WallpaperLabService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105F105; };
-		3105F205 /* WallpaperLabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105F106; };
 		3105F206 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105F108; };
-		3105G200 /* ZIPArchiveWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105G100; };
 		3105G201 /* FileOperationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105G101; };
-		3105G202 /* ZIPArchiveExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105G102; };
 		3105G203 /* PatchWorkspaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105G103; };
 		3105H200 /* AppTabNavigationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105H100; };
 		3105I200 /* FilesTabControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105I100; };
 		3105I201 /* FilesTabSwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105I101; };
 		3105K200 /* FileBrowserMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105K100; };
-		3105L200 /* PackageRepositoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105L100; };
-		3105L201 /* PackageRepositoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105L101; };
-		3105L202 /* RepositoryMarketplaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105L102; };
-		3105L203 /* RepositoryHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105L103; };
-		3105L204 /* RepositorySourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105L104; };
-		3105L205 /* RepositoryPresentationSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105L105; };
 		3106B200 /* BackupCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106B100; };
-		3106B201 /* BackupCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106B101; };
-		3106H201 /* FeatureHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106H101; };
 		3106P200 /* Pathleak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106P100; };
 		3106P201 /* ScanCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106P101; };
 		3106T200 /* TaskCancellation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T100; };
 		3106T201 /* TempSpaceRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T101; };
 		3106T202 /* TextPagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T102; };
 		3106T210 /* PaginatedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T110; };
-		3106T211 /* DiagnosticReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T111; };
-		3106T400 /* MigrationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T300; };
-		3106T401 /* MigrationTreeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T301; };
-		3106T402 /* MigrationFileCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T302; };
-		3106T403 /* MigrationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T303; };
-		3106T404 /* MigrationCheckpointStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T304; };
-		3106T405 /* MigrationResumeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T305; };
-		3106T406 /* MigrationAppResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T306; };
-		3106T407 /* MigrationConfigBackupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T307; };
-		3106T408 /* MigrationRenameAuditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T308; };
-		3106T409 /* MigrationTaskCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T309; };
-		3106T500 /* MigrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T310; };
-		3106T501 /* MigrationMappingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T311; };
-		3106T502 /* MigrationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T312; };
-		3106T503 /* MigrationProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T313; };
-		3106T504 /* MigrationResumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T314; };
-		3106T505 /* MigrationConfigBackupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T315; };
-		3106T510 /* GestaltBaselineStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T320; };
-		3106T511 /* LaunchArtworkRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T321; };
-		3106T512 /* LaunchArtworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T322; };
-		3106T513 /* LaunchArtworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T323; };
-		3106T514 /* SystemSettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T324; };
-		3106T515 /* SystemSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T325; };
 		3106T516 /* SQLiteIntegrityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T326; };
 		3106T517 /* StoreIconFallbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T327; };
-		3106T518 /* AppUpdateChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106T328; };
 		3106R200 /* Respring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106R100; };
-		3106R201 /* AcknowledgementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106R101; };
-		3106M200 /* MobileGestaltService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106M100; };
-		3106M201 /* MobileGestaltEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106M101; };
-		3106M202 /* KeypadThemeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106M102; };
-		3106C200 /* CrashLogCleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106C100; };
-		3106M203 /* KeypadThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106M103; };
 		3106S200 /* SQLiteViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106S100; };
 		3106S201 /* HexViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106S101; };
 		3106S202 /* PlistEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3106S102; };
@@ -211,7 +128,6 @@
 		3105A085 /* sandbox_escape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sandbox_escape.m; sourceTree = "<group>"; };
 		3106C0D1 /* MGImageReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGImageReader.h; sourceTree = "<group>"; };
 		3106C0D2 /* MGImageReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGImageReader.m; sourceTree = "<group>"; };
-		3106C0D4 /* MGCacheLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGCacheLayout.swift; sourceTree = "<group>"; };
 		3105A090 /* kexploit_opa334.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kexploit_opa334.h; sourceTree = "<group>"; };
 		3105A091 /* offsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = offsets.h; sourceTree = "<group>"; };
 		3105A092 /* krw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = krw.h; sourceTree = "<group>"; };
@@ -230,7 +146,6 @@
 		3105J201 /* AntiDetection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntiDetection.m; sourceTree = "<group>"; };
 		3105J202 /* DisplayIdentity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayIdentity.h; sourceTree = "<group>"; };
 		3105J203 /* DisplayIdentity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayIdentity.m; sourceTree = "<group>"; };
-		3105J205 /* DisplayIdentityAttribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayIdentityAttribution.swift; sourceTree = "<group>"; };
 		3105A108 /* ContainerIdentityResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerIdentityResolver.swift; sourceTree = "<group>"; };
 		3105A109 /* ContainerBrowserLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerBrowserLogic.swift; sourceTree = "<group>"; };
 		3105A110 /* FileReplacementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReplacementService.swift; sourceTree = "<group>"; };
@@ -244,12 +159,6 @@
 		3105D144 /* PermissionPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionPolicy.swift; sourceTree = "<group>"; };
 		3105D145 /* DeviceCPU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCPU.swift; sourceTree = "<group>"; };
 		3105D146 /* JailbreakDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JailbreakDetector.swift; sourceTree = "<group>"; };
-		3105D147 /* RegionKeyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionKeyPolicy.swift; sourceTree = "<group>"; };
-		3105D148 /* RegionTargets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionTargets.swift; sourceTree = "<group>"; };
-		3105D149 /* WiFiSharePolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiSharePolicy.swift; sourceTree = "<group>"; };
-		3105D14A /* WiFiShareServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiShareServer.swift; sourceTree = "<group>"; };
-		3105D14B /* WiFiShareConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiShareConnection.swift; sourceTree = "<group>"; };
-		3105D14C /* WiFiShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiShareView.swift; sourceTree = "<group>"; };
 		3105D14D /* UnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockView.swift; sourceTree = "<group>"; };
 		3105D14E /* UnlockBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockBanner.swift; sourceTree = "<group>"; };
 		3106Q100 /* LaunchServicesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchServicesStore.swift; sourceTree = "<group>"; };
@@ -265,113 +174,38 @@
 		3105C100 /* PatchDraftService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchDraftService.swift; sourceTree = "<group>"; };
 		3105C101 /* PatchDraftCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchDraftCoordinator.swift; sourceTree = "<group>"; };
 		3105C102 /* FolderPatchSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderPatchSelectionView.swift; sourceTree = "<group>"; };
-		3105E100 /* LimitedCleanerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitedCleanerService.swift; sourceTree = "<group>"; };
-		3105E101 /* CleanerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerView.swift; sourceTree = "<group>"; };
-		3105E102 /* CleanerCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerCatalog.swift; sourceTree = "<group>"; };
-		3105E103 /* CleanerSafetyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerSafetyPolicy.swift; sourceTree = "<group>"; };
-		3105E104 /* CleanerHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerHistory.swift; sourceTree = "<group>"; };
-		3105E105 /* CleanerMeasureCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerMeasureCache.swift; sourceTree = "<group>"; };
-		3105E106 /* BackupTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupTabView.swift; sourceTree = "<group>"; };
 		3105E108 /* RiskConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskConfirmationView.swift; sourceTree = "<group>"; };
 		3105E109 /* ContainerSizeMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerSizeMeter.swift; sourceTree = "<group>"; };
 		3105E10A /* ScanDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDiagnostics.swift; sourceTree = "<group>"; };
-		3105E10B /* GestaltKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestaltKeys.swift; sourceTree = "<group>"; };
-		3105E10C /* GestaltPresets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestaltPresets.swift; sourceTree = "<group>"; };
-		3105E10D /* GestaltRegionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestaltRegionService.swift; sourceTree = "<group>"; };
-		3105E10E /* GestaltFieldEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestaltFieldEditorView.swift; sourceTree = "<group>"; };
-		3105E10F /* GestaltPresetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestaltPresetListView.swift; sourceTree = "<group>"; };
-		3105E110 /* GestaltRegionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestaltRegionView.swift; sourceTree = "<group>"; };
-		3105E111 /* SupervisedModeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupervisedModeService.swift; sourceTree = "<group>"; };
-		3105E112 /* AppSaveBackupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSaveBackupService.swift; sourceTree = "<group>"; };
-		3105E113 /* SupervisedModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupervisedModeView.swift; sourceTree = "<group>"; };
-		3105E114 /* AppSaveBackupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSaveBackupView.swift; sourceTree = "<group>"; };
-		3105E115 /* FullBackupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullBackupService.swift; sourceTree = "<group>"; };
-		3105E116 /* ActivityHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityHistory.swift; sourceTree = "<group>"; };
-		3105E117 /* AltStoreSourceAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltStoreSourceAdapter.swift; sourceTree = "<group>"; };
 		3105E118 /* BackendNoticeBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendNoticeBanner.swift; sourceTree = "<group>"; };
 		3106W911 /* SandboxDiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxDiagnosticsView.swift; sourceTree = "<group>"; };
 		3105E119 /* FileReplaceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReplaceService.swift; sourceTree = "<group>"; };
-		3105E11A /* FileReplaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReplaceView.swift; sourceTree = "<group>"; };
-		3105E11B /* GestaltCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestaltCardsView.swift; sourceTree = "<group>"; };
-		3105E11C /* AppVersionComparison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppVersionComparison.swift; sourceTree = "<group>"; };
-		3106G103 /* GestaltPlistMerge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestaltPlistMerge.swift; sourceTree = "<group>"; };
-		3106G102 /* GestaltValueParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestaltValueParser.swift; sourceTree = "<group>"; };
 		3106G101 /* IdentityComparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityComparator.swift; sourceTree = "<group>"; };
-		3106G104 /* BackupMetadataPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupMetadataPolicy.swift; sourceTree = "<group>"; };
-		3106G106 /* GestaltExplicitEdits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestaltExplicitEdits.swift; sourceTree = "<group>"; };
-		3106N101 /* NotificationSoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSoundView.swift; sourceTree = "<group>"; };
-		3106G108 /* NotificationSoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSoundService.swift; sourceTree = "<group>"; };
-		3106G107 /* NotificationSoundPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSoundPolicy.swift; sourceTree = "<group>"; };
-		3106G105 /* GestaltEditPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestaltEditPolicy.swift; sourceTree = "<group>"; };
 		3105E107 /* AppCardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCardList.swift; sourceTree = "<group>"; };
 		3105F100 /* wallpaper_zip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wallpaper_zip.c; sourceTree = "<group>"; };
 		3105F101 /* wallpaper_zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wallpaper_zip.h; sourceTree = "<group>"; };
-		3105F102 /* WallpaperLabModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperLabModels.swift; sourceTree = "<group>"; };
 		3105F103 /* SecureZIPArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureZIPArchive.swift; sourceTree = "<group>"; };
-		3105F104 /* WallpaperInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperInstaller.swift; sourceTree = "<group>"; };
-		3105F105 /* WallpaperLabService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperLabService.swift; sourceTree = "<group>"; };
-		3105F106 /* WallpaperLabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperLabView.swift; sourceTree = "<group>"; };
 		3105F108 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		3105G100 /* ZIPArchiveWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIPArchiveWriter.swift; sourceTree = "<group>"; };
 		3105G101 /* FileOperationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileOperationCoordinator.swift; sourceTree = "<group>"; };
-		3105G102 /* ZIPArchiveExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIPArchiveExtractor.swift; sourceTree = "<group>"; };
 		3105G103 /* PatchWorkspaceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchWorkspaceService.swift; sourceTree = "<group>"; };
 		3105H100 /* AppTabNavigationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabNavigationState.swift; sourceTree = "<group>"; };
 		3105I100 /* FilesTabControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesTabControls.swift; sourceTree = "<group>"; };
 		3105I101 /* FilesTabSwitcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesTabSwitcherView.swift; sourceTree = "<group>"; };
 		3105K100 /* FileBrowserMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileBrowserMetadata.swift; sourceTree = "<group>"; };
-		3105L100 /* PackageRepositoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageRepositoryModels.swift; sourceTree = "<group>"; };
-		3105L101 /* PackageRepositoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageRepositoryStore.swift; sourceTree = "<group>"; };
-		3105L102 /* RepositoryMarketplaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryMarketplaceView.swift; sourceTree = "<group>"; };
-		3105L103 /* RepositoryHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryHomeView.swift; sourceTree = "<group>"; };
-		3105L104 /* RepositorySourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositorySourcesView.swift; sourceTree = "<group>"; };
-		3105L105 /* RepositoryPresentationSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryPresentationSupport.swift; sourceTree = "<group>"; };
 		3105A121 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3105A122 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3105B123 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 			3105C124 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3106B100 /* BackupCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupCenter.swift; sourceTree = "<group>"; };
-		3106B101 /* BackupCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupCenterView.swift; sourceTree = "<group>"; };
-		3106H101 /* FeatureHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureHubView.swift; sourceTree = "<group>"; };
 		3106P100 /* Pathleak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pathleak.swift; sourceTree = "<group>"; };
 		3106P101 /* ScanCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanCoordinator.swift; sourceTree = "<group>"; };
 		3106T100 /* TaskCancellation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCancellation.swift; sourceTree = "<group>"; };
 		3106T101 /* TempSpaceRegistry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempSpaceRegistry.swift; sourceTree = "<group>"; };
 		3106T102 /* TextPagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPagination.swift; sourceTree = "<group>"; };
 		3106T110 /* PaginatedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedTextView.swift; sourceTree = "<group>"; };
-		3106T111 /* DiagnosticReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticReportView.swift; sourceTree = "<group>"; };
-		3106T300 /* MigrationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationModels.swift; sourceTree = "<group>"; };
-		3106T301 /* MigrationTreeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationTreeScanner.swift; sourceTree = "<group>"; };
-		3106T302 /* MigrationFileCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationFileCopy.swift; sourceTree = "<group>"; };
-		3106T303 /* MigrationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationEngine.swift; sourceTree = "<group>"; };
-		3106T304 /* MigrationCheckpointStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationCheckpointStore.swift; sourceTree = "<group>"; };
-		3106T305 /* MigrationResumeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationResumeService.swift; sourceTree = "<group>"; };
-		3106T306 /* MigrationAppResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationAppResolver.swift; sourceTree = "<group>"; };
-		3106T307 /* MigrationConfigBackupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationConfigBackupService.swift; sourceTree = "<group>"; };
-		3106T308 /* MigrationRenameAuditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationRenameAuditor.swift; sourceTree = "<group>"; };
-		3106T309 /* MigrationTaskCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationTaskCenter.swift; sourceTree = "<group>"; };
-		3106T310 /* MigrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationView.swift; sourceTree = "<group>"; };
-		3106T311 /* MigrationMappingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationMappingView.swift; sourceTree = "<group>"; };
-		3106T312 /* MigrationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationPreviewView.swift; sourceTree = "<group>"; };
-		3106T313 /* MigrationProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationProgressView.swift; sourceTree = "<group>"; };
-		3106T314 /* MigrationResumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationResumeView.swift; sourceTree = "<group>"; };
-		3106T315 /* MigrationConfigBackupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrationConfigBackupView.swift; sourceTree = "<group>"; };
-		3106T320 /* GestaltBaselineStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestaltBaselineStore.swift; sourceTree = "<group>"; };
-		3106T321 /* LaunchArtworkRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchArtworkRenderer.swift; sourceTree = "<group>"; };
-		3106T322 /* LaunchArtworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchArtworkService.swift; sourceTree = "<group>"; };
-		3106T323 /* LaunchArtworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchArtworkView.swift; sourceTree = "<group>"; };
-		3106T324 /* SystemSettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSettingsService.swift; sourceTree = "<group>"; };
-		3106T325 /* SystemSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSettingsView.swift; sourceTree = "<group>"; };
 		3106T326 /* SQLiteIntegrityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteIntegrityService.swift; sourceTree = "<group>"; };
 		3106T327 /* StoreIconFallbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreIconFallbackService.swift; sourceTree = "<group>"; };
-		3106T328 /* AppUpdateChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUpdateChecker.swift; sourceTree = "<group>"; };
 		3106R100 /* Respring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Respring.swift; sourceTree = "<group>"; };
-		3106R101 /* AcknowledgementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementsView.swift; sourceTree = "<group>"; };
-		3106M100 /* MobileGestaltService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileGestaltService.swift; sourceTree = "<group>"; };
-		3106M101 /* MobileGestaltEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileGestaltEditorView.swift; sourceTree = "<group>"; };
-		3106M102 /* KeypadThemeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadThemeService.swift; sourceTree = "<group>"; };
-		3106C100 /* CrashLogCleaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashLogCleaner.swift; sourceTree = "<group>"; };
-		3106M103 /* KeypadThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadThemeView.swift; sourceTree = "<group>"; };
 		3106S100 /* SQLiteViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteViewerView.swift; sourceTree = "<group>"; };
 		3106S101 /* HexViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexViewerView.swift; sourceTree = "<group>"; };
 		3106S102 /* PlistEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistEditorView.swift; sourceTree = "<group>"; };
@@ -451,45 +285,16 @@
 				3105B121 /* PatchProjectsView.swift */,
 				3105B122 /* PatchProjectEditorView.swift */,
 				3105C102 /* FolderPatchSelectionView.swift */,
-				3105E101 /* CleanerView.swift */,
-				3105F106 /* WallpaperLabView.swift */,
-				3105E106 /* BackupTabView.swift */,
 				3105E108 /* RiskConfirmationView.swift */,
 				3105E118 /* BackendNoticeBanner.swift */,
 				3106W911 /* SandboxDiagnosticsView.swift */,
-				3105E11A /* FileReplaceView.swift */,
-				3105E11B /* GestaltCardsView.swift */,
-				3105E10E /* GestaltFieldEditorView.swift */,
-				3105E10F /* GestaltPresetListView.swift */,
-				3105E110 /* GestaltRegionView.swift */,
-				3105E113 /* SupervisedModeView.swift */,
-				3105E114 /* AppSaveBackupView.swift */,
 				3105E107 /* AppCardList.swift */,
 				3105F108 /* OnboardingView.swift */,
-				3105L102 /* RepositoryMarketplaceView.swift */,
-				3105L103 /* RepositoryHomeView.swift */,
-				3105L104 /* RepositorySourcesView.swift */,
-				3106B101 /* BackupCenterView.swift */,
-				3106H101 /* FeatureHubView.swift */,
-				3106R101 /* AcknowledgementsView.swift */,
-				3106M101 /* MobileGestaltEditorView.swift */,
-				3106M103 /* KeypadThemeView.swift */,
 				3106S100 /* SQLiteViewerView.swift */,
 				3106S101 /* HexViewerView.swift */,
 				3106S102 /* PlistEditorView.swift */,
 				3106S103 /* FileInfoView.swift */,
 				3106T110 /* PaginatedTextView.swift */,
-				3106T111 /* DiagnosticReportView.swift */,
-				3106T323 /* LaunchArtworkView.swift */,
-				3106T325 /* SystemSettingsView.swift */,
-				3106T310 /* MigrationView.swift */,
-				3106T311 /* MigrationMappingView.swift */,
-				3106T312 /* MigrationPreviewView.swift */,
-				3106T313 /* MigrationProgressView.swift */,
-				3106T314 /* MigrationResumeView.swift */,
-				3106T315 /* MigrationConfigBackupView.swift */,
-				3106N101 /* NotificationSoundView.swift */,
-				3105D14C /* WiFiShareView.swift */,
 				3105D14D /* UnlockView.swift */,
 				3105D14E /* UnlockBanner.swift */,
 			);
@@ -506,13 +311,8 @@
 				3106Q100 /* LaunchServicesStore.swift */,
 				3105A110 /* FileReplacementService.swift */,
 				3105A111 /* FileManagerService.swift */,
-				3105G100 /* ZIPArchiveWriter.swift */,
-				3105G102 /* ZIPArchiveExtractor.swift */,
 				3105G101 /* FileOperationCoordinator.swift */,
 				3105K100 /* FileBrowserMetadata.swift */,
-				3105L100 /* PackageRepositoryModels.swift */,
-				3105L101 /* PackageRepositoryStore.swift */,
-				3105L105 /* RepositoryPresentationSupport.swift */,
 				3105A113 /* SupportPolicy.swift */,
 				3105D140 /* LanguageResolver.swift */,
 				3105D141 /* OnboardingStore.swift */,
@@ -521,11 +321,6 @@
 				3105D144 /* PermissionPolicy.swift */,
 				3105D145 /* DeviceCPU.swift */,
 				3105D146 /* JailbreakDetector.swift */,
-				3105D147 /* RegionKeyPolicy.swift */,
-				3105D148 /* RegionTargets.swift */,
-				3105D149 /* WiFiSharePolicy.swift */,
-				3105D14A /* WiFiShareServer.swift */,
-				3105D14B /* WiFiShareConnection.swift */,
 				3106W033 /* SandboxAccess.swift */,
 				3106W903 /* SandboxDiagnostics.swift */,
 				3106W907 /* GrantRetry.swift */,
@@ -540,43 +335,17 @@
 				3105H100 /* AppTabNavigationState.swift */,
 				3105C100 /* PatchDraftService.swift */,
 				3105C101 /* PatchDraftCoordinator.swift */,
-				3105E100 /* LimitedCleanerService.swift */,
-				3105E102 /* CleanerCatalog.swift */,
 				3105E109 /* ContainerSizeMeter.swift */,
 				3105E10A /* ScanDiagnostics.swift */,
-				3105E10B /* GestaltKeys.swift */,
-				3105E10C /* GestaltPresets.swift */,
-				3106C0D4 /* MGCacheLayout.swift */,
-				3105E10D /* GestaltRegionService.swift */,
-				3105E111 /* SupervisedModeService.swift */,
-				3105E112 /* AppSaveBackupService.swift */,
-				3105E115 /* FullBackupService.swift */,
-				3105E116 /* ActivityHistory.swift */,
-				3105E117 /* AltStoreSourceAdapter.swift */,
-				3105E11C /* AppVersionComparison.swift */,
-				3106G103 /* GestaltPlistMerge.swift */,
-				3106G102 /* GestaltValueParser.swift */,
 				3106G101 /* IdentityComparator.swift */,
-				3106G104 /* BackupMetadataPolicy.swift */,
-				3106G106 /* GestaltExplicitEdits.swift */,
-				3106G108 /* NotificationSoundService.swift */,
-				3106G107 /* NotificationSoundPolicy.swift */,
-				3106G105 /* GestaltEditPolicy.swift */,
 				3105E119 /* FileReplaceService.swift */,
-				3105E103 /* CleanerSafetyPolicy.swift */,
-				3105E104 /* CleanerHistory.swift */,
-				3105E105 /* CleanerMeasureCache.swift */,
-				3105F102 /* WallpaperLabModels.swift */,
 				3105F103 /* SecureZIPArchive.swift */,
-				3105F104 /* WallpaperInstaller.swift */,
-				3105F105 /* WallpaperLabService.swift */,
 				3105A106 /* AppIconHelper.m */,
 				3105A107 /* AppIconHelper.h */,
 				3105A202 /* KernelExploit.swift */,
 				3105J201 /* AntiDetection.m */,
 				3105J202 /* DisplayIdentity.h */,
 				3105J203 /* DisplayIdentity.m */,
-				3105J205 /* DisplayIdentityAttribution.swift */,
 				3105A025 /* Utils.swift */,
 				3105A026 /* SBX.swift */,
 				3105A027 /* MG.swift */,
@@ -586,27 +355,9 @@
 				3106T100 /* TaskCancellation.swift */,
 				3106T101 /* TempSpaceRegistry.swift */,
 				3106T102 /* TextPagination.swift */,
-				3106T300 /* MigrationModels.swift */,
-				3106T301 /* MigrationTreeScanner.swift */,
-				3106T302 /* MigrationFileCopy.swift */,
-				3106T303 /* MigrationEngine.swift */,
-				3106T304 /* MigrationCheckpointStore.swift */,
-				3106T305 /* MigrationResumeService.swift */,
-				3106T306 /* MigrationAppResolver.swift */,
-				3106T307 /* MigrationConfigBackupService.swift */,
-				3106T308 /* MigrationRenameAuditor.swift */,
-				3106T309 /* MigrationTaskCenter.swift */,
-				3106T320 /* GestaltBaselineStore.swift */,
-				3106T321 /* LaunchArtworkRenderer.swift */,
-				3106T322 /* LaunchArtworkService.swift */,
-				3106T324 /* SystemSettingsService.swift */,
 				3106T326 /* SQLiteIntegrityService.swift */,
 				3106T327 /* StoreIconFallbackService.swift */,
-				3106T328 /* AppUpdateChecker.swift */,
 				3106R100 /* Respring.swift */,
-				3106M100 /* MobileGestaltService.swift */,
-				3106M102 /* KeypadThemeService.swift */,
-				3106C100 /* CrashLogCleaner.swift */,
 			);
 			path = helpers;
 			sourceTree = "<group>";
